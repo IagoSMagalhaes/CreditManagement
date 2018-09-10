@@ -70,7 +70,7 @@ public class UserAddressEndpointTest {
 		
 		userAddressRepository.save(new UserAddress(1L));		
 		ResponseEntity<UserAddress> response = restTemplate.getForEntity("/usersAddress/deleteById/{id}", UserAddress.class, -1);
-		Assertions.assertThat(response.getStatusCodeValue()).isEqualTo(200);	
+		Assertions.assertThat(response.getStatusCodeValue()).isEqualTo(400);	
 	}
 	
 	@Test
