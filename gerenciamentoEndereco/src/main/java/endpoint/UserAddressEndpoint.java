@@ -71,7 +71,7 @@ public class UserAddressEndpoint {
 
 	@PutMapping(path="/update")
 	@ApiOperation(value = "Update userAddress" , response = String.class)
-	public ResponseEntity<?> updateUserAddres(@Valid @RequestBody UserAddress userAddress){		
+	public ResponseEntity<?> update(@Valid @RequestBody UserAddress userAddress){		
 		verifyIfUserAddressExist(userAddress.getId());		
 		userAddressDAO.save(userAddress);
 		return new ResponseEntity<>(null, HttpStatus.OK);
