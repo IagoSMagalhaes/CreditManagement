@@ -53,7 +53,7 @@ public class UserAddressEndpoint {
 	}
 
 	@PostMapping(path="/save")
-	@ApiOperation(value = "Save userAddress request Body" , response = String.class)
+	@ApiOperation(value = "Save userAddress request Body" , response = UserAddress.class)
 	@Transactional(rollbackOn = RuntimeException.class)
 	public ResponseEntity<?> save(@Valid @RequestBody UserAddress userAddress){
 		userAddressDAO.save(userAddress);
@@ -76,7 +76,7 @@ public class UserAddressEndpoint {
 		userAddressDAO.save(userAddress);
 		return new ResponseEntity<>(null, HttpStatus.OK);
 	}
-	
+	@ApiOperation(value = "Verifiy exist UserAddress" , response = String.class)
 	private void verifyIfUserAddressExist(Long id) {
 		Optional<UserAddress> userAddress = userAddressDAO.findById(id); 
 		if(!userAddress.isPresent()) {
