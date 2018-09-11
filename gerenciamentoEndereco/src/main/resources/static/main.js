@@ -111,8 +111,6 @@ function findUserAddress() {
         clearFormData();
     }
  
-    // HTTP DELETE- delete employee by Id
-    // Call: http://localhost:8080/employee/{empId}
     $scope.deleteUserAddress = function(id) {
     if(confirm("Tem certeza que deseja excluir este usuário?") == false){
     	return false;
