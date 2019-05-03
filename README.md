@@ -23,7 +23,7 @@ A parte de documentação ficou responsável pela biblioteca springfox, utilizan
 Para acessa -lá: Basta entrar no caminho:
 http://localhost:8080/swagger-ui.html
 
-								Plano de Desenvolvimento
+						Plano de Desenvolvimento
 
 Para realizar o projeto, foi utilizado o modelo Desenvolvimento Cascata, mapeado as regras de negócios e as necessidades do “cliente”, análise das possíveis tecnologias que poderiam alcançar o que o sistema necessita, codificação das unidades e entrega do sistema.
 
