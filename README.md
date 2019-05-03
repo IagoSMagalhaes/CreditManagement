@@ -1,6 +1,6 @@
                                                          Sistema
 
-O Sistema nasceu com o intuito inicial de efetuar um cadastro de um Cliente, liberando o valor no limite do crédito e aplicando a taxa de juros de acordo com o risco. Uma funcionalidade simples, porém, sabemos que os sistemas crescem drasticamente ao longo do tempo, e por isso, foi modelado e arquitetado para suportar possíveis mudanças e aumento de consumo.
+O Sistema nasceu com o intuito inicial de efetuar o cadastro de um Cliente, liberando o valor no limite do crédito e aplicando a taxa de juros de acordo com o risco. Uma funcionalidade simples, porém, sabemos que os sistemas crescem drasticamente ao longo do tempo, e por isso, foi modelado e arquitetado para suportar possíveis mudanças e aumento de consumo.
 
 A arquitetura implantada foi a Spring MVC(Model, View, Controller), onde visa separar as responsabilidades de cada parte do sistema, facilitando manutenção e compreensão do código.
 
