@@ -4,7 +4,7 @@ O Sistema nasceu com o intuito inicial de efetuar o cadastro de um Cliente, libe
 
 A arquitetura implantada foi a Spring MVC(Model, View, Controller), onde visa separar as responsabilidades de cada parte do sistema, facilitando manutenção e compreensão do código.
 
-A transmissão de dados é executada por JSON em protocolo HTTP baseado em RestFull contando com Serialização dos Objetos por utilizando a biblioteca do Jackson.
+A transmissão de dados é executada por JSON em protocolo HTTP baseado em RestFull contando com Serialização dos objetos utilizando a biblioteca do Jackson.
 
 O servidor responsável por deixar a aplicação em pé é o TomCat, leve e atendendo as necessidades até o momento, o servidor fica em standAlone pois estamos utilizando SpringBoot. O SpringBoot visa executar o projeto de forma mais eficaz possível e evitar complicações por diversas anotações que a lib nos oferece.
 Em uma maneira geral, o código fica muito mais limpo e facilita a manutenção da configuração do servidor.
