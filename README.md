@@ -44,7 +44,7 @@ Json:
 Persistence:
 	Package com abstração das entidades do sistema
 
-Após a criação da infra com as abstrações, foram criadas as camadas entidade Client e inicialmente realizado os testes de GET/PUT/DELETE/POST através do postMan até que a view do cliente estivesse pronta. 
+Após a criação da infra com as abstrações, foram criadas as camadas do Client e inicialmente realizado os testes de GET/PUT/DELETE/POST através do postMan até que a view do cliente estivesse pronta. 
 Assim que foi concluído, colocou-se em prática o esboço já pré-definido do template que atenderia as necessidades e iniciou-se o desenvolvimento do FrontEnd, que também contou com a fase inicial de abstração dos recursos que poderiam ser reutilizados.
 No package infra:
 
